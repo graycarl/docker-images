@@ -4,3 +4,6 @@
 [submodule "nginx"]
 	path = nginx
 	url = https://github.com/graycarl/docker-images-nginx.git
+[submodule "pptp"]
+	path = pptp
+	url = https://github.com/graycarl/docker-images-pptp.git
