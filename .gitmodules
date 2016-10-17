@@ -16,3 +16,6 @@
 [submodule "tinyproxy"]
 	path = tinyproxy
 	url = https://github.com/graycarl/docker-images-tinyproxy.git
+[submodule "runit"]
+	path = runit
+	url = https://github.com/graycarl/docker-images-runit.git
