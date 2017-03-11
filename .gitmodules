@@ -1,6 +1,3 @@
 [submodule "ubuntu"]
 	path = ubuntu
 	url = https://github.com/graycarl/docker-images-ubuntu.git
-[submodule "tinyproxy"]
-	path = tinyproxy
-	url = https://github.com/graycarl/docker-images-tinyproxy.git
