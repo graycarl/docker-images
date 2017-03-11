@@ -13,6 +13,3 @@
 [submodule "runit"]
 	path = runit
 	url = https://github.com/graycarl/docker-images-runit.git
-[submodule "psnwiki"]
-	path = psnwiki
-	url = https://github.com/graycarl/docker-images-psnwiki.git

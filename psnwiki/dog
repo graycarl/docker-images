@@ -1,0 +1,18 @@
+#!/bin/bash
+
+cd /opt/blog
+echo "Dog started."
+
+function update() {
+    git pull --rebase
+    git push origin master
+}
+
+echo "First update."
+update
+
+while true; do
+    inotifywait -e modify -e move -e create -e delete .
+    echo "Got change, start to update!"
+    update
+done
